@@ -3,6 +3,7 @@ import './App.css'
 import { MuiThemeProvider } from 'material-ui'
 
 import ChainerHeader from '../navs/ChainerHeader'
+import ChainsList from '../chains/ChainsList'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <MuiThemeProvider>
           <ChainerHeader/>
+          <ChainsList/>
         </MuiThemeProvider>
       </div>
     )
